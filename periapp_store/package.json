@@ -1,0 +1,21 @@
+{
+  "name": "periapp-store",
+  "version": "1.0.0",
+  "description": "PeriApp - Finanças | Página de Download no Google Play Store",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "periapp",
+    "finanças",
+    "google-play",
+    "app-store"
+  ],
+  "author": "PeriApp Desenvolvimento",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
