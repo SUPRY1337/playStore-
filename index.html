@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>PeriApp - Finanças - Apps no Google Play</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <!-- Logo Google Play em SVG -->
+            <svg viewBox="0 0 24 24" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+                <!-- Triângulo vermelho -->
+                <path d="M3 13.5v8.88c0 .48.37.87.85.87H9V13.5H3z" fill="#EA4335"/>
+                <!-- Triângulo amarelo -->
+                <path d="M15 13.5v9.75h5.15c.48 0 .85-.39.85-.87V13.5H15z" fill="#FBBC04"/>
+                <!-- Triângulo azul -->
+                <path d="M9 3.5L3.85 9c-.3.3-.3.77 0 1.07l5.15 5.43V3.5z" fill="#4285F4"/>
+                <!-- Triângulo verde -->
+                <path d="M15 3.5v10.5l5.15-5.43c.3-.3.3-.77 0-1.07L15 3.5z" fill="#34A853"/>
+            </svg>
+            <span class="logo-text">Play</span>
+        </div>
+        <div class="header-actions">
+            <button title="Pesquisar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+            </button>
+            <button title="Ajuda">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.41-1.41-2.5-2.5-2.5S8 8.59 8 10h-2c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5c0 .88-.36 1.68-.93 2.25z"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- APP CARD -->
+        <div class="app-card">
+            <img src="assets/img/periapp_icon.webp" alt="PeriApp Icon" class="app-icon">
+            <h1 class="app-title">PeriApp - Finanças</h1>
+            <p class="app-developer">PeriApp Desenvolvimento</p>
+        </div>
+
+        <!-- STATS -->
+        <div class="app-stats">
+            <div class="stat">
+                <div class="stat-value">4,8 ★</div>
+                <div class="stat-label">350 avaliações</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">1 mi+</div>
+                <div class="stat-label">downloads</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">Livre</div>
+                <div class="stat-label">Preço</div>
+            </div>
+        </div>
+
+        <!-- ACTION BUTTONS -->
+        <div class="app-actions">
+            <button id="downloadBtn" class="btn btn-primary">Instalar</button>
+            <button class="btn btn-secondary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="18" cy="5" r="3"></circle>
+                    <line x1="12" y1="12" x2="18" y2="5"></line>
+                    <path d="M6 8.82a15 15 0 0 1 13.78-1.23"></path>
+                </svg>
+                Compartilhar
+            </button>
+            <button class="btn btn-secondary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+                Adicionar à lista
+            </button>
+        </div>
+
+        <!-- INFO SECTION -->
+        <div class="info-section">
+            Este app está disponível para alguns dos seus dispositivos
+        </div>
+
+        <!-- SECURITY SECTION -->
+        <section class="security-section">
+            <h2 class="section-title">Segurança dos dados</h2>
+            <p class="security-content">
+                Sua segurança começa quando você entende como os desenvolvedores coletam e compartilham seus dados.
+            </p>
+            <div class="security-icons">
+                <div class="security-icon">
+                    <div class="security-icon-symbol">🎮</div>
+                    <div class="security-icon-label">Jogos</div>
+                </div>
+                <div class="security-icon">
+                    <div class="security-icon-symbol">📱</div>
+                    <div class="security-icon-label">Apps</div>
+                </div>
+                <div class="security-icon">
+                    <div class="security-icon-symbol">📖</div>
+                    <div class="security-icon-label">Livros</div>
+                </div>
+                <div class="security-icon">
+                    <div class="security-icon-symbol">👶</div>
+                    <div class="security-icon-label">Crianças</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about-section">
+            <h2 class="section-title">Sobre este app</h2>
+            <div class="about-content">
+                <p><strong>PeriApp - Finanças</strong> é um aplicativo completo de gestão financeira pessoal que ajuda você a controlar suas despesas, receitas e investimentos de forma simples e intuitiva.</p>
+                <p>Com uma interface moderna e fácil de usar, o PeriApp permite que você:</p>
+                <p>✓ Registre suas despesas e receitas em tempo real<br>
+                ✓ Crie orçamentos personalizados<br>
+                ✓ Acompanhe seus gastos por categoria<br>
+                ✓ Visualize gráficos e relatórios detalhados<br>
+                ✓ Sincronize com suas contas bancárias<br>
+                ✓ Receba alertas de gastos excessivos</p>
+                <p>Comece a controlar suas finanças hoje mesmo com o PeriApp!</p>
+            </div>
+        </section>
+
+        <!-- EXTRA SPACE FOR BOTTOM NAV -->
+        <div style="height: 20px;"></div>
+    </main>
+
+    <!-- BOTTOM NAVIGATION -->
+    <nav class="bottom-nav">
+        <button class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M15 5v14H9V5h6m1-2H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
+            </svg>
+            <span>Jogos</span>
+        </button>
+        <button class="nav-item active">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+            </svg>
+            <span>Apps</span>
+        </button>
+        <button class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H6V4h12v16z"/>
+            </svg>
+            <span>Livros</span>
+        </button>
+        <button class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+            </svg>
+            <span>Crianças</span>
+        </button>
+    </nav>
+
+    <!-- MODAL DE INSTRUÇÕES -->
+    <div id="installModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>📱 Como Instalar o PeriApp</h2>
+            <p>Seu download começou! Siga os passos abaixo:</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Abra o Gerenciador de Downloads</h3>
+                        <p>Procure pelo arquivo <strong>periapp.apk</strong></p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Permita Instalações</h3>
+                        <p>Ative <strong>"Permitir desta fonte"</strong> se solicitado</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Toque em Instalar</h3>
+                        <p>Clique no botão <strong>"Instalar"</strong></p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Abra o App</h3>
+                        <p>Toque em <strong>"Abrir"</strong> para começar</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button id="closeModal" class="btn btn-primary">Entendi, Fechar</button>
+        </div>
+    </div>
+
+    <script>
+        // Download direto
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const link = document.createElement('a');
+            link.href = 'downloads/periapp.apk';
+            link.download = 'periapp.apk';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            setTimeout(() => {
+                document.getElementById('installModal').style.display = 'block';
+            }, 500);
+        });
+        
+        // Fechar modal
+        document.querySelector('.modal-close').addEventListener('click', function() {
+            document.getElementById('installModal').style.display = 'none';
+        });
+        
+        document.getElementById('closeModal').addEventListener('click', function() {
+            document.getElementById('installModal').style.display = 'none';
+        });
+        
+        window.addEventListener('click', function(event) {
+            const modal = document.getElementById('installModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        // Bottom nav
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
